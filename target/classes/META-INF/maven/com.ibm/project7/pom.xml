@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ibm</groupId>
   <artifactId>project7</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.1</version>
   
   <dependencies>
   <dependency>
@@ -24,22 +24,22 @@
 <distributionManagement>
     <snapshotRepository>
     <id>ibmtest</id>
-    <url>http://localhost:8081/repository/ibmtest</url>
+    <url>http://104.197.238.20:8081/repository/hclrelease/</url>
     </snapshotRepository>
     <repository>
     <id>ibmrelease</id>
-    <url>http://localhost:8081/repository/ibmrelease/</url>
+    <url>http://104.197.238.20:8081/repository/hcltest/</url>
     </repository>
 </distributionManagement>
    <repositories>
    
   <repository>
         <id>ibmtest</id>
-        <url>http://localhost:8081/repository/ibmtest</url>
+        <url>http://104.197.238.20:8081/repository/hclrelease</url>
     </repository>
     <repository>
         <id>hclrelease</id>
-        <url>http://localhost:8081/repository/ibmrelease/</url>
+        <url>http://104.197.238.20:8081/repository/hcltest/</url>
     </repository>
 </repositories>
    
