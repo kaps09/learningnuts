@@ -24,22 +24,22 @@
 <distributionManagement>
     <snapshotRepository>
     <id>ibmtest</id>
-    <url>http://104.197.238.20:8081/repository/hclrelease/</url>
+    <url>http://34.136.72.31:8081/repository/hclrelease/</url>
     </snapshotRepository>
     <repository>
     <id>ibmrelease</id>
-    <url>http://104.197.238.20:8081/repository/hcltest/</url>
+    <url>http://34.136.72.31:8081/repository/hcltest/</url>
     </repository>
 </distributionManagement>
    <repositories>
    
   <repository>
         <id>ibmtest</id>
-        <url>http://104.197.238.20:8081/repository/hclrelease</url>
+        <url>http://34.136.72.31:8081/repository/hclrelease</url>
     </repository>
     <repository>
         <id>hclrelease</id>
-        <url>http://104.197.238.20:8081/repository/hcltest/</url>
+        <url>http://34.136.72.31:8081/repository/hcltest/</url>
     </repository>
 </repositories>
    
