@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.ibm</groupId>
+  <groupId>com.hcl</groupId>
   <artifactId>project7</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.3</version>
   
   <dependencies>
   <dependency>
@@ -23,23 +23,23 @@
 
 <distributionManagement>
     <snapshotRepository>
-    <id>ibmtest</id>
-    <url>http://34.136.72.31:8081/repository/hclrelease/</url>
+    <id>hcltest</id>
+    <url>http://34.121.52.44:8081/repository/hclrelease/</url>
     </snapshotRepository>
     <repository>
-    <id>ibmrelease</id>
-    <url>http://34.136.72.31:8081/repository/hcltest/</url>
+    <id>hclrelease</id>
+    <url>http://34.121.52.44:8081/repository/hcltest/</url>
     </repository>
 </distributionManagement>
    <repositories>
    
   <repository>
-        <id>ibmtest</id>
-        <url>http://34.136.72.31:8081/repository/hclrelease</url>
+        <id>hcltest</id>
+        <url>http://34.121.52.44:8081/repository/hclrelease</url>
     </repository>
     <repository>
         <id>hclrelease</id>
-        <url>http://34.136.72.31:8081/repository/hcltest/</url>
+        <url>http://34.121.52.44:8081/repository/hcltest/</url>
     </repository>
 </repositories>
    
